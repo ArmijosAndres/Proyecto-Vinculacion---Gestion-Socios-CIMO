@@ -9,7 +9,7 @@
       <ul class="navbar-nav">
         <!-- Barra lateral - Socios -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/app-listado-socios">
+          <a class="nav-link" routerLink="/listado-socios" routerLinkActive="active">
             <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-user-tie" style="font-size: 16px;"></i>
             </div>
@@ -19,7 +19,7 @@
 
         <!-- Barra lateral - Pagos -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/app-pagos">
+          <a class="nav-link" routerLink="/pagos" routerLinkActive="active">
             <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-dollar-sign" style="font-size: 16px;"></i>
             </div>
@@ -29,7 +29,7 @@
 
         <!-- Barra lateral - Mensualidades -->
         <li class="nav-item">
-          <a class="nav-link" routerLink="/app-reporte-mensualidades">
+          <a class="nav-link" routerLink="/reporte-mensualidades" routerLinkActive="active">
             <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-wallet" style="font-size: 16px;"></i>
             </div>
@@ -39,12 +39,22 @@
         
         <!-- Barra lateral - Reportes -->
         <li class="nav-item">
-          <a class="nav-link  " routerLink="/app-reportes">
+          <a class="nav-link" routerLink="/reporte-socios" routerLinkActive="active">
             <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
               <i class="fa-solid fa-chart-line" style="font-size: 16px;"></i>
             </div>
             <span class="nav-link-text ms-1">Reportes</span>
           </a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/conversion" routerLinkActive="active">
+            <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+              <i class="fa-solid fa-chart-line" style="font-size: 16px;"></i>
+            </div>
+            <span class="nav-link-text ms-1">Conversión de Divisas</span>
+          </a>
+        </li>
+
       </ul>
     </div>

@@ -1,0 +1,25 @@
+<div class="conversion-container">
+  <h2>Conversor de Monedas</h2>
+
+  <input type="number" [(ngModel)]="amount" placeholder="Cantidad" />
+
+  <select [(ngModel)]="from">
+    <option value="USD">Dólar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="COP">Peso Colombiano (COP)</option>
+  </select>
+
+  <span>a</span>
+
+  <select [(ngModel)]="to">
+    <option value="USD">Dólar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="COP">Peso Colombiano (COP)</option>
+  </select>
+
+  <button (click)="convertCurrency()">Convertir</button>
+
+  <div *ngIf="result !== null">
+    <p>Resultado: {{ result | number:'1.2-2' }} {{ to }}</p>
+  </div>
+</div>

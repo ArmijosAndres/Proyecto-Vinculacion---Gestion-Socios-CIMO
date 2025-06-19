@@ -5,3 +5,5 @@ ng g c socio/components/socio/listado-socios --skip-tests
 ng g c socio/components/socio/formulario-socio --skip-tests
 ng g c socio/components/reporte-socios --skip-tests
 ng g c socio/components/socio/pagos --skip-tests
+
+ng g c socio/components/socio/pagos --skip-tests

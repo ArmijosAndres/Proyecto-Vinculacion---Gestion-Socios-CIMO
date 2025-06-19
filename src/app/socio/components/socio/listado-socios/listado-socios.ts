@@ -1,10 +1,11 @@
 import { Component } from '@angular/core'
 import { FormularioSocio } from '../formulario-socio/formulario-socio';
+import { RouterModule } from '@angular/router';
 declare var $:any;
 
 @Component({
   selector: 'app-listado-socios',
-  imports: [FormularioSocio],
+  imports: [FormularioSocio, RouterModule],
   templateUrl: './listado-socios.html',
   styleUrl: './listado-socios.css'
 })
